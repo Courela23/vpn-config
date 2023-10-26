@@ -93,25 +93,20 @@ On the Virtual Machine, launch a web browser, then enter "whatismyipaddress.com"
  
 </p>
 <p>
-Open up another tab, and type in protonvpn.com in the browser. Click on create free account and fill out the informatoin to create your account.
-Once you've registered for a Proton VPN account, obtain the Proton VPN client tailored for your operating system by downloading it.
-</p>
-<br />
-
-<p>
-
-
 </p>
 <p>
-Once the download is completed, open up the VPN client installer and select all the default options for the proton VPN setup wizard. 
-</p>
-<br />
 
-<p>
+- Start by opening a new tab in your web browser.
+-	In the address bar, enter "protonvpn.com" and hit Enter.
+-	On the ProtonVPN website, locate the "Create Free Account" button and click on it.
+-	Fill in the required information to create your ProtonVPN account. This typically includes your email address and a secure password.
+-	Once you have successfully registered for a ProtonVPN account, proceed to download the ProtonVPN client that is compatible with your operating system.
+-	Wait for the download to finish, and then locate the installer for the ProtonVPN client.
+-	Run the VPN client installer and choose all the default settings as suggested by the ProtonVPN setup wizard.
+-	After the installation is complete, launch the ProtonVPN application on your device.
+-	Log in to the ProtonVPN application using the same login credentials you used to create your account.
+-	Upon logging in, you may notice that the free account offers a limited selection of VPN servers. This is because free accounts typically come with fewer server options.
 
-</p>
-<p>
-Once the installation is completed open up the proton VPN application and login with the same credentials used to create the account. 
 </p>
 <br />
 
@@ -138,10 +133,9 @@ Pick one of the available VPN servers for connection and allow the connection to
 
 </p>
 <p>
-Once the connection is completed, refresh the dashboard interface to confirm an established connection, open up a web browser and go to "whatismyipaddress.com" and you'll see that the public ip address of the VM now displays region in which the VPN server is located in. 
+After establishing the connection, you can confirm it by refreshing the dashboard interface. Next, open a web browser and visit "whatismyipaddress.com." Here, you will observe that the public IP address of the virtual machine (VM) now reflects the geographical region where the VPN server is situated. 
 </p>
   
-In Conclusion: Simply creating a virtual machine similarly acts like a VPN by displaying an IP address where the VM's server is located when choosing the region. The main difference is that a VPN will provide content in the region's language and relevant information exclusive to the region. To verify this simply open up any popular website in a browser and review the display of the language and information on the webpage and compare it to the language and content when viewing that same webpage on your actual PC. 
-. 
+In summary, creating a virtual machine emulates certain aspects of a VPN by showing an IP address corresponding to the VM's server location when selecting the region. However, a VPN offers additional benefits, such as serving content in the region's language and providing region-specific information. To validate this, simply visit a popular website in your browser and compare the language and content displayed on the webpage with what you see when accessing the same webpage on your physical PC.
 </p>
 <br />
