@@ -5,9 +5,7 @@
 
 A VPN, or Virtual Private Network, is a technology that encrypts and secures your internet connection, providing privacy and protection from potential threats. It also allows you to access the internet as if you were in a different location, bypassing geo-restrictions and enhancing online anonymity.
 
-![Screen Shot 2023-10-26 at 10 12 21 AM](https://github.com/Courela23/vpn-config/assets/136120929/6213e6e5-b5fa-43fd-98b5-252e2f0e0c56)
 
-![Screen Shot 2023-10-26 at 10 12 53 AM](https://github.com/Courela23/vpn-config/assets/136120929/1eb84e7f-8d99-425f-8651-fab1263b4f8c)
 
 ![Screen Shot 2023-10-26 at 10 13 33 AM](https://github.com/Courela23/vpn-config/assets/136120929/83aad9a0-3865-4744-ae36-2679a968802f)
 
@@ -27,6 +25,8 @@ A VPN, or Virtual Private Network, is a technology that encrypts and secures you
 
 <h1>Observing the Effect of a VPN on IP Addressing</h1>
 In this project, the impact of a virtual private network (VPN) on IP address will be observed. <br />
+
+![Screen Shot 2023-10-26 at 10 52 42 AM](https://github.com/Courela23/vpn-config/assets/136120929/e4f54715-d145-47c9-b30c-4b6ba8c3df7c)
 
 
 <h2>Environments and Technologies Used</h2>
@@ -152,10 +152,12 @@ Open up another tab, and type in protonvpn.com in the browser. Click on create f
 <br />
 
 <p>
-<img src="https://i.imgur.com/xRteo5z.jpg" height="70%" width="70%"/>
+ 
+![Screen Shot 2023-10-26 at 10 12 21 AM](https://github.com/Courela23/vpn-config/assets/136120929/6213e6e5-b5fa-43fd-98b5-252e2f0e0c56)
+ 
 </p>
 <p>
-After creating the Proton VPN account, download the proton vpn client that is necessary for your OS. 
+Once you've registered for a Proton VPN account, obtain the Proton VPN client tailored for your operating system by downloading it.
 </p>
 <br />
 
@@ -183,10 +185,11 @@ When you get logged in there will likely only be a few options for VPN servers d
 </p>
 
 <p>
-<img src="https://i.imgur.com/gh3MUZq.jpg" height="70%" width="70%"/>
+ 
+![Screen Shot 2023-10-26 at 10 12 53 AM](https://github.com/Courela23/vpn-config/assets/136120929/1eb84e7f-8d99-425f-8651-fab1263b4f8c)
 </p>
 <p>  
-Choose any one of the available VPN servers to connect to and allow the connection to build up. In this demonstration, Netherlands is selected. 
+Pick one of the available VPN servers for connection and allow the connection to establish. For this example, Japan has been chosen.
 </p>  
 
 <p>
