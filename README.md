@@ -5,17 +5,6 @@
 
 A VPN, or Virtual Private Network, is a technology that encrypts and secures your internet connection, providing privacy and protection from potential threats. It also allows you to access the internet as if you were in a different location, bypassing geo-restrictions and enhancing online anonymity.
 
-
-
-![Screen Shot 2023-10-26 at 10 15 04 AM](https://github.com/Courela23/vpn-config/assets/136120929/be51b002-a6ca-4fbd-931f-8513d0fd31ca)
-![Screen Shot 2023-10-26 at 10 15 24 AM](https://github.com/Courela23/vpn-config/assets/136120929/bfd44264-cf0c-4452-ae94-e9b40b2b0532)
-![Screen Shot 2023-10-26 at 9 47 36 AM](https://github.com/Courela23/vpn-config/assets/136120929/da173a28-0d2a-43ca-a81b-e5b1333b2c17)
-![Screen Shot 2023-10-26 at 9 48 09 AM](https://github.com/Courela23/vpn-config/assets/136120929/9b13e855-e36a-4ee5-9aa7-1b85abf01857)
-![Screen Shot 2023-10-26 at 9 48 27 AM](https://github.com/Courela23/vpn-config/assets/136120929/77493193-b86e-449d-a2dc-586f1677c192)
-![Screen Shot 2023-10-26 at 9 50 29 AM](https://github.com/Courela23/vpn-config/assets/136120929/3a55c907-5872-431a-bd28-994c77ee585d)
-![Screen Shot 2023-10-26 at 9 50 59 AM](https://github.com/Courela23/vpn-config/assets/136120929/a02036b0-6e94-4ad7-9d40-ceeb0f5bc821)
-
-
 </p>
 
 <h1>Observing the Effect of a VPN on IP Addressing</h1>
@@ -50,16 +39,17 @@ In this project, the impact of a virtual private network (VPN) on IP address wil
 <h2>Summary</h2>
 
 <p>
- 
+
 ![Screen Shot 2023-10-26 at 9 52 37 AM](https://github.com/Courela23/vpn-config/assets/136120929/3303eff0-46e7-4467-a2a5-d896abb27056)
 </p>
 <p>
 On your pc type in "free azure account". Click on the link which should say "Create Your Azure Free Account Today". In the webpage, click on the "start free" box. 
  
 <p>
- 
+
 ![Screen Shot 2023-10-26 at 9 47 36 AM](https://github.com/Courela23/vpn-config/assets/136120929/da173a28-0d2a-43ca-a81b-e5b1333b2c17)
- 
+
+![Screen Shot 2023-10-26 at 10 15 24 AM](https://github.com/Courela23/vpn-config/assets/136120929/bfd44264-cf0c-4452-ae94-e9b40b2b0532)
 </p>
 <p>
 You will be prompted to sign into an existing Microsoft account or to create one (Note: creating an azure account does require the use of a credit card, but will not charge the card unless the free $200 of credit that is applied to the account is exceeded so be sure to have that ready to input.)
@@ -68,7 +58,8 @@ You will be prompted to sign into an existing Microsoft account or to create one
 
 <p>
  
-![Screen Shot 2023-10-26 at 9 48 09 AM](https://github.com/Courela23/vpn-config/assets/136120929/9b13e855-e36a-4ee5-9aa7-1b85abf01857)
+ ![Screen Shot 2023-10-26 at 11 13 19 AM](https://github.com/Courela23/vpn-config/assets/136120929/9ef433ab-ca15-4b63-85f5-045179f5228d)
+
 
 </p>
 <p>
@@ -76,7 +67,7 @@ After creating your account, go to the Azure portal by typing in portal.azure.co
 
 <p>
  
-![Screen Shot 2023-10-26 at 10 14 04 AM](https://github.com/Courela23/vpn-config/assets/136120929/d07447f7-f5a9-48df-a905-b4c3f7348e36)
+
 </p>
 <p>  
 Open another web browser and type in the search bar "whatismyipaddress.com". Take a note of the IP address displayed. (Note: it's important not to share or  disclose your public IP address with just anyone because it can give away your private location and worst give a malicious actor a target to use malicious techniques against your network).
@@ -84,7 +75,7 @@ Open another web browser and type in the search bar "whatismyipaddress.com". Tak
 <br />
 
 <p>
-<img src="https://i.imgur.com/HlPj27w.jpeg" height="70%" width="70%"/>
+
 </p>
 <p>
 Go back to the Microsoft Azure interface. Type in "virtual machine" in the Microsoft azure search bar and select the virtual machine icon. This step will require basically just inputting different names or titles and selecting different types of resources. 
@@ -107,7 +98,7 @@ Check the licensing agreement box then click "Review + Create". Once the process
 <br />
 
 <p>
-<img src="https://i.imgur.com/eJby71b.jpeg" height="70%" width="70%"/>
+
 </p>
 <p>
 After the virtual machine is created, click on the virtual machine and copy the public IP address of the virtual machine in order to connect to it remotely. Depending on the operating system, open up either "Remote Desktop Connection" (Windows) or in this case, "Microsoft Remote Desktop" (MacOS), and click on "Add PC".
@@ -115,7 +106,7 @@ After the virtual machine is created, click on the virtual machine and copy the 
 <br />
 
 <p>
-<img src="https://i.imgur.com/UA1EG9D.jpeg" height="70%" width="70%"/>
+
 </p>
 <p>
 Input the public IP address of the virtual machine in for the "PC Name" then click "add".
@@ -123,7 +114,8 @@ Input the public IP address of the virtual machine in for the "PC Name" then cli
 <br />
 
 <p>
-<img src="https://i.imgur.com/4lP0uQi.jpeg" height="70%" width="70%"/>  
+ 
+![Screen Shot 2023-10-26 at 9 48 27 AM](https://github.com/Courela23/vpn-config/assets/136120929/77493193-b86e-449d-a2dc-586f1677c192)
 </p>
 <p>
 Click on the interface of the virtual machine and input the username and password that you used when creating the virtual machine.
@@ -131,7 +123,8 @@ Click on the interface of the virtual machine and input the username and passwor
 <br />
 
 <p>
-<img src="https://i.imgur.com/buyTxfz.jpeg" height="70%" width="70%"/>
+ 
+![Screen Shot 2023-10-26 at 10 14 04 AM](https://github.com/Courela23/vpn-config/assets/136120929/d07447f7-f5a9-48df-a905-b4c3f7348e36)
 </p>
 <p>
 After the connection to the virtual machine is completed, open up the web browser and type in whatismyipaddress.com and take note of the ip that is displayed. 
@@ -139,7 +132,7 @@ After the connection to the virtual machine is completed, open up the web browse
 <br />
 
 <p>
-<img src="https://i.imgur.com/RqkwUO1.jpg" height="70%" width="70%"/>
+
 </p>
 <p>
 Open up another tab, and type in protonvpn.com in the browser. Click on create free account and fill out the informatoin to create your account. 
@@ -147,6 +140,8 @@ Open up another tab, and type in protonvpn.com in the browser. Click on create f
 <br />
 
 <p>
+ 
+![Screen Shot 2023-10-26 at 9 50 59 AM](https://github.com/Courela23/vpn-config/assets/136120929/a02036b0-6e94-4ad7-9d40-ceeb0f5bc821)
  
 ![Screen Shot 2023-10-26 at 10 12 21 AM](https://github.com/Courela23/vpn-config/assets/136120929/6213e6e5-b5fa-43fd-98b5-252e2f0e0c56)
  
@@ -157,7 +152,8 @@ Once you've registered for a Proton VPN account, obtain the Proton VPN client ta
 <br />
 
 <p>
-<img src="https://i.imgur.com/D8xY7wX.jpg" height="70%" width="70%"/>
+
+
 </p>
 <p>
 Once the download is completed, open up the VPN client installer and select all the default options for the proton VPN setup wizard. 
@@ -165,7 +161,7 @@ Once the download is completed, open up the VPN client installer and select all 
 <br />
 
 <p>
-<img src="https://i.imgur.com/beXSGzh.jpg" height="70%" width="70%"/>
+
 </p>
 <p>
 Once the installation is completed open up the proton VPN application and login with the same credentials used to create the account. 
@@ -173,7 +169,7 @@ Once the installation is completed open up the proton VPN application and login 
 <br />
 
 <p>
-<img src="https://i.imgur.com/oMr3V1Y.jpg" height="70%" width="70%"/>
+
 </p>
 <p>
 When you get logged in there will likely only be a few options for VPN servers due to the limited selection of the free account.
