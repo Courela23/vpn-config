@@ -1,4 +1,27 @@
 # vpn-config
+<h1>Analyzing the Impact of a VPN on IP Address Behavior</h1>
+
+![Screen Shot 2023-10-26 at 10 25 58 AM](https://github.com/Courela23/vpn-config/assets/136120929/92abb410-7d7b-4c51-b7a7-ee531e5e9d33)
+
+A VPN, or Virtual Private Network, is a technology that encrypts and secures your internet connection, providing privacy and protection from potential threats. It also allows you to access the internet as if you were in a different location, bypassing geo-restrictions and enhancing online anonymity.
+
+![Screen Shot 2023-10-26 at 10 12 21 AM](https://github.com/Courela23/vpn-config/assets/136120929/6213e6e5-b5fa-43fd-98b5-252e2f0e0c56)
+
+![Screen Shot 2023-10-26 at 10 12 53 AM](https://github.com/Courela23/vpn-config/assets/136120929/1eb84e7f-8d99-425f-8651-fab1263b4f8c)
+
+![Screen Shot 2023-10-26 at 10 13 33 AM](https://github.com/Courela23/vpn-config/assets/136120929/83aad9a0-3865-4744-ae36-2679a968802f)
+
+![Screen Shot 2023-10-26 at 10 14 04 AM](https://github.com/Courela23/vpn-config/assets/136120929/d07447f7-f5a9-48df-a905-b4c3f7348e36)
+![Screen Shot 2023-10-26 at 10 14 30 AM](https://github.com/Courela23/vpn-config/assets/136120929/56330199-751e-4320-8ade-43a93420cd2e)
+
+![Screen Shot 2023-10-26 at 10 15 04 AM](https://github.com/Courela23/vpn-config/assets/136120929/be51b002-a6ca-4fbd-931f-8513d0fd31ca)
+![Screen Shot 2023-10-26 at 10 15 24 AM](https://github.com/Courela23/vpn-config/assets/136120929/bfd44264-cf0c-4452-ae94-e9b40b2b0532)
+![Screen Shot 2023-10-26 at 9 47 36 AM](https://github.com/Courela23/vpn-config/assets/136120929/da173a28-0d2a-43ca-a81b-e5b1333b2c17)
+![Screen Shot 2023-10-26 at 9 48 09 AM](https://github.com/Courela23/vpn-config/assets/136120929/9b13e855-e36a-4ee5-9aa7-1b85abf01857)
+![Screen Shot 2023-10-26 at 9 48 27 AM](https://github.com/Courela23/vpn-config/assets/136120929/77493193-b86e-449d-a2dc-586f1677c192)
+![Screen Shot 2023-10-26 at 9 50 29 AM](https://github.com/Courela23/vpn-config/assets/136120929/3a55c907-5872-431a-bd28-994c77ee585d)
+![Screen Shot 2023-10-26 at 9 50 59 AM](https://github.com/Courela23/vpn-config/assets/136120929/a02036b0-6e94-4ad7-9d40-ceeb0f5bc821)
+![Screen Shot 2023-10-26 at 9 52 37 AM](https://github.com/Courela23/vpn-config/assets/136120929/3303eff0-46e7-4467-a2a5-d896abb27056)
 
 </p>
 
@@ -8,9 +31,9 @@ In this project, the impact of a virtual private network (VPN) on IP address wil
 
 <h2>Environments and Technologies Used</h2>
 
-- Microsoft Azure (Virtual Machines)
--	Remote Desktop
--	ProtonVPN (free version)
+- Microsoft Azure Account & VM
+- ProtonVPN (free free subcription)
+-	Remote Desktop for Windows or Mac
 
 
 <h2>Operating System Used </h2>
@@ -19,15 +42,15 @@ In this project, the impact of a virtual private network (VPN) on IP address wil
 
 <h2>High-Level Steps</h2>
 
--	Create a Windows 10 virtual machine in Azure
--	Remote Desktop into the virtual machine
--	Use whatismyipaddress.com to find the IP address and location for the VM
--	Download the free version of ProtonVPN (create an account if there is no preexisting account)
--	In ProtonVPN, connect to a server in another country
+- Create a resource group on Azure.
+-	Establish a Windows 10 virtual machine in Azure
+-	Initiate a remote desktop connection to access the virtual machine.
+-	Retrieve the IP address and location of the VM using whatismyipaddress.com.
+-	Download the free edition of ProtonVPN, and create an account if necessary.
+-	Connect to a ProtonVPN server
 -	Use whatismyipaddress.com to find the new IP address and location for the VM
--	Browse a webpage to see if there are any changes to the URL or language
--	Delete Resource Groups in Azure
-
+-	Visit a Netflix to detect any modifications in URL or language.
+-	Conclude by removing Resource Groups from Azure.
 
 <h2>Summary</h2>
 
@@ -74,6 +97,14 @@ Go back to the Microsoft Azure interface. Type in "virtual machine" in the Micro
  - Image: select "Windows 10 pro, version 21H2 - Gen2 (free services eligible)" 
  - Size: (choose an option of your choice for the best performance)
  - Administrator Account: (create a username and password)
+ - Establish a Windows 10 virtual machine on Azure.
+Initiate a remote desktop connection to access the virtual machine.
+Retrieve the IP address and location of the VM using whatismyipaddress.com.
+Download the free edition of ProtonVPN, and create an account if necessary.
+Connect to a ProtonVPN server located in a different country.
+Recheck the VM's IP address and location using whatismyipaddress.com.
+Visit a webpage to detect any modifications in URL or language.
+Conclude by removing Resource Groups from Azure.
 
 <p>
 Check the licensing agreement box then click "Review + Create". Once the process is finished validating all the resources, click "Create" to initialize the virtual machine.
@@ -159,7 +190,9 @@ Choose any one of the available VPN servers to connect to and allow the connecti
 </p>  
 
 <p>
-<img src="https://i.imgur.com/hAuGB20.jpg" height="70%" width="70%"/>
+ 
+![Screen Shot 2023-10-26 at 10 14 30 AM](https://github.com/Courela23/vpn-config/assets/136120929/56330199-751e-4320-8ade-43a93420cd2e)
+ 
 </p>
 <p>
 Once the connection is completed, refresh the dashboard interface to confirm an established connection, open up a web browser and go to "whatismyipaddress.com" and you'll see that the public ip address of the VM now displays region in which the VPN server is located in. 
