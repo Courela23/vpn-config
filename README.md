@@ -85,70 +85,15 @@ After that, under the "Resource groups" section, click on "Create" to establish 
 <p>  
 On the Virtual Machine, launch a web browser, then enter "whatismyipaddress.com" into the search bar. Make a record of the IP address shown. Please be cautious not to share or reveal your public IP address to unauthorized individuals, as it could potentially expose your private location and make you vulnerable to malicious actions aimed at your network.
 </p>
-<br />
-
-<p>
-
-</p>
-<p>
-
-</p>
-<br />
-
-<p>
-
-</p>
-<br />
-
-<p>
-
-</p>
-<p>
-After the virtual machine is created, click on the virtual machine and copy the public IP address of the virtual machine in order to connect to it remotely. Depending on the operating system, open up either "Remote Desktop Connection" (Windows) or in this case, "Microsoft Remote Desktop" (MacOS), and click on "Add PC".
-</p>
-<br />
-
-<p>
-
-</p>
-<p>
-Input the public IP address of the virtual machine in for the "PC Name" then click "add".
-</p>
-<br />
-
-<p>
  
 </p>
 <p>
-Click on the interface of the virtual machine and input the username and password that you used when creating the virtual machine.
-</p>
-<br />
-
-<p>
- 
-![Screen Shot 2023-10-26 at 10 14 04 AM](https://github.com/Courela23/vpn-config/assets/136120929/d07447f7-f5a9-48df-a905-b4c3f7348e36)
-</p>
-<p>
-After the connection to the virtual machine is completed, open up the web browser and type in whatismyipaddress.com and take note of the ip that is displayed. 
-</p>
-<br />
-
-<p>
-
-</p>
-<p>
-Open up another tab, and type in protonvpn.com in the browser. Click on create free account and fill out the informatoin to create your account. 
-</p>
-<br />
-
-<p>
- 
-![Screen Shot 2023-10-26 at 9 50 59 AM](https://github.com/Courela23/vpn-config/assets/136120929/a02036b0-6e94-4ad7-9d40-ceeb0f5bc821)
  
 ![Screen Shot 2023-10-26 at 10 12 21 AM](https://github.com/Courela23/vpn-config/assets/136120929/6213e6e5-b5fa-43fd-98b5-252e2f0e0c56)
  
 </p>
 <p>
+Open up another tab, and type in protonvpn.com in the browser. Click on create free account and fill out the informatoin to create your account.
 Once you've registered for a Proton VPN account, obtain the Proton VPN client tailored for your operating system by downloading it.
 </p>
 <br />
